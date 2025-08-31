@@ -1,0 +1,35 @@
+{
+  "name": "ubc_timetable",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "node --test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.11.0",
+  "dependencies": {
+    "@radix-ui/react-dialog": "^1.0.0",
+    "date-fns-tz": "^2.0.0",
+    "next": "14.0.0",
+    "pdfjs-dist": "^3.11.174",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "tesseract.js": "^5.0.0",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "20.5.1",
+    "@types/react": "18.2.14",
+    "@types/react-dom": "18.2.7",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.3",
+    "typescript": "^5.2.2"
+  }
+}
